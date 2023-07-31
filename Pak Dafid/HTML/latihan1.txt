@@ -1,0 +1,10 @@
+latihan 1
+
+Buatlah halaman website yang menampilkan data 
+
+Nama 
+kelas
+NIS
+jenis kelamin
+agama 
+alamat 

@@ -1,0 +1,3 @@
+Latihan 2
+
+Buatlah halaman website yang menampilkan jadwal pelajaran senin - jumat menggunakan materi yang sudah dijelaskan

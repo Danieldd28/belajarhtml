@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Biodata</title>
+    <style>
+      nav, a{
+        font-family: Calibri;
+        font-size: medium;
+        text-align: center;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="jadwal1.html">Jadwal</a>
+      <a href="Biodata.html">Biodata</a>
+      <a href="form.html">Form</a>
+  </nav>
+    <h1>Biodata</h1>
+    <form action="submit.php" method="post">
+      <table>
+        <tr>
+          <td>Nama</td>
+          <td><input type="text" name="nama" /></td>
+        </tr>
+        <tr>
+          <td>Tempat Lahir</td>
+          <td><input type="text" name="tempat_lahir" /></td>
+        </tr>
+        <tr>
+          <td>Tanggal Lahir</td>
+          <td><input type="date" name="tanggal_lahir" /></td>
+        </tr>
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td>
+            <input
+              type="radio"
+              name="jenis_kelamin"
+              value="laki-laki"
+            />Laki-laki
+            <input
+              type="radio"
+              name="jenis_kelamin"
+              value="perempuan"
+            />Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td><input type="text" name="alamat" /></td>
+        </tr>
+        <tr>
+          <td>Agama</td>
+          <td><input type="text" name="agama" /></td>
+        </tr>
+        <tr>
+          <td>Kelas</td>
+          <td><input type="text" name="kelas" /></td>
+        </tr>
+        <tr>
+          <td>Hobi</td>
+          <td><input type="text" name="hobi" /></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Submit" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
