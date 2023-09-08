@@ -1,0 +1,21 @@
+form{
+    padding: 5px;
+    border: solid black;
+    border-radius: 5px;
+    width: 35%;
+    margin: auto;
+}
+
+input,select,label{
+    /* border: solid black; */
+    margin-right: auto;
+    margin: 5px;
+    width: max-content;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    
+  }
